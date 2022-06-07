@@ -1,76 +1,88 @@
 #appIconWhiteWelcome {
-    width: 75%;
+  width: 75%;
     border-radius: 10%;
 }
 
 /* colours */
-:root{
-    --primary: #5cc1d3;
-    --secondary: #50a5b4;
-    --title: #ffffff;
-  }
+:root {
+  --primary: #5cc1d3;
+  --secondary: #50a5b4;
+  --title: #ffffff;
+}
   
   /* layout styles */
-  #appIconNav {
-      width: 7%;
-      margin: 5px;
-      margin-bottom: 0px;
-  }
-  nav{
-    background: var(--primary);
-    border-bottom: 10px solid var(--secondary);
-    font-size: larger;
-  }
-  nav a{
-    color: var(--title);
-  }
-  nav a span{
-    font-weight: bold;
-  }
-  nav .sidenav-trigger{
-    margin: 0;
-  }
+#appIconNav {
+  width: 7%;
+  margin: 5px;
+  margin-bottom: 0px;
+}
+nav {
+  background: var(--primary);
+  border-bottom: 10px solid var(--secondary);
+  font-size: larger;
+}
+nav a {
+  color: var(--title);
+}
+nav a span {
+  font-weight: bold;
+}
+nav .sidenav-trigger {
+  margin: 0;
+}
   
-  #profielFotoSide {
-    width: 75%;
-    border-radius: 50%;
-    margin-top: 10%;
-    margin-left: 15%;
-  }
+#profielFotoSide {
+  width: 75%;
+  border-radius: 50%;
+  margin-top: 10%;
+  margin-left: 15%;
+}
 
-  /* recipe styles */
-  .recipes{
-    margin-top: 20px;
-  }
-  .card-panel.recipe{
-    border-radius: 8px;
-    padding: 10px;
-    box-shadow: 0px 1px 3px rgba(90,90,90,0.1);
+.recipes {
+  margin-top: 20px;
+}
+.card-panel.recipe {
+  border-radius: 8px;
+  padding: 10px;
+  box-shadow: 0px 1px 3px rgba(90, 90, 90, 0.1);
     display: grid;
     grid-template-columns: 2fr 6fr 1fr;
     grid-template-areas: "image details delete";
     position: relative;
+}
+.recipe img {
+  grid-area: image;
+  max-width: 100%;
   }
-  .recipe img{
-    grid-area: image;
-    max-width: 120%;
+.recipe-details {
+  grid-area: details;
+  margin-top: 0.1vh;
   }
-  .recipe-details{
-    grid-area: details;
-    margin-top: 6px;
-  }
-  .recipe-delete{
-    grid-area: delete;
-    position: absolute;
-    bottom: 0px;
-    right: 0px;
-  }
-  .recipe-delete i{
-    font-size: 18px;
-  }
-  .recipe-title{
-    font-weight: bold;
-  }
-  .recipe-ingredients{
-    font-size: 0.8em;
-  }
+.recipe-delete {
+  grid-area: delete;
+  position: absolute;
+  bottom: 0px;
+  right: 0px;
+}
+.recipe-delete i {
+  font-size: 18px;
+}
+.recipe-title {
+  font-weight: bold;
+  padding-left: 5px;
+    font-size: 3vh;
+}
+.recipe-ingredients {
+  font-size: 2em;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.steps {
+  display: flex;
+  justify-content: space-between;
+}
+
+#step {
+  width: 24vh;
+}
