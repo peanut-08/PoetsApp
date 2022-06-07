@@ -86,3 +86,10 @@ nav .sidenav-trigger {
 #step {
   width: 24vh;
 }
+#step-icon {
+  margin-top: 2.5vh;
+}
+
+#single-icon {
+  margin-top: 0.7vh;
+}
