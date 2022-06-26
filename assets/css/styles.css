@@ -97,3 +97,6 @@ nav .sidenav-trigger {
 #single-icon {
   margin-top: 0.7vh;
 }
+.recipe-image video {
+  max-width: 100%;
+}
