@@ -36,7 +36,7 @@
         <li>
             <div class="divider"></div>
         </li>
-        <li><a href="/pages/profiel.html" class="waves-effect">Profiel foto</a></li>
+        <li><a href="/pages/profiel.html" class="waves-effect">Profielfoto</a></li>
         <li><a href="/pages/thema.html" class="waves-effect">Thema</a></li>
         <li><a href="/pages/badges.html" class="waves-effect">Badges</a></li>
         <li>
@@ -53,14 +53,20 @@
         <div class="recipe white row">
             <div class="recipe-details">
                 <div class="recipe-title">Stap 1</div>
-                <div class="recipe-image"><img src="/assets/img/hand/tandpasta-hand.png" alt="hand-tandpasta"></div>
+                <div class="recipe-image"><img src="/assets/img/hand/1-tandpasta-hand.png" alt="hand-tandpasta"></div>
                 <div class="recipe-ingredients">Doe een klein beetje tandpasta op je tandenborstel.</div>
             </div>
         </div>
-        <div class="card-panel recipe white row" onclick="location.href='stap2.html';">
-            <i class="material-icons" id="single-icon">fast_forward</i>
+        <div class="steps">
+            <div class="card-panel recipe white row" id="step">
             <div class="recipe-details">
-                <div class="recipe-title">Volgende stap</div>
+                    <i class="material-icons" id="step-icon">fast_rewind</i>
+                    </div>
+                    </div>
+                    <div class="card-panel recipe white row" id="step" onclick="location.href='stap2.html';">
+                        <div class="recipe-details">
+                            <i class="material-icons" id="step-icon">fast_forward</i>
+                        </div>
             </div>
         </div>
         <div class="card-panel recipe white row" onclick="location.href='/home.html';">
