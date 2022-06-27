@@ -77,7 +77,7 @@ nav .sidenav-trigger {
     font-size: 3vh;
 }
 .recipe-ingredients {
-  font-size: 2em;
+  font-size: 3vh;
   padding-left: 10px;
   padding-right: 10px;
 }
@@ -92,7 +92,7 @@ nav .sidenav-trigger {
 }
 #step-icon {
   vertical-align: middle;
-    margin-right: 2vh;
+    margin-right: 1vh;
 }
 
 #single-icon {
