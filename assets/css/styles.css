@@ -24,6 +24,7 @@ nav {
   background: var(--primary);
   border-bottom: 10px solid var(--secondary);
   font-size: larger;
+  height: 11vh;
 }
 nav a {
   color: var(--title);
