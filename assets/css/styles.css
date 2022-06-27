@@ -50,6 +50,7 @@ nav .sidenav-trigger {
 
 .recipes {
   margin-top: 20px;
+  padding-top: 7vh;
 }
 .card-panel.recipe {
   border-radius: 8px;
