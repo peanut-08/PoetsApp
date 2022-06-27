@@ -29,7 +29,7 @@ nav {
   background: var(--primary);
   border-bottom: 10px solid var(--secondary);
   font-size: larger;
-  height: 11vh;
+  height: 60px;
 }
 nav a {
   color: var(--title);
@@ -50,7 +50,7 @@ nav .sidenav-trigger {
 
 .recipes {
   margin-top: 20px;
-  padding-top: 11vh;
+  padding-top: 50px;
 }
 .card-panel.recipe {
   border-radius: 8px;
