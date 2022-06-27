@@ -14,7 +14,7 @@
   --title: #ffffff;
 }
   
-  /* layout styles */
+/* layout styles */
 #appIconNav {
   width: 7%;
   margin: 5px;
@@ -91,7 +91,8 @@ nav .sidenav-trigger {
   width: 24vh;
 }
 #step-icon {
-  font-size: 9vh;
+  vertical-align: middle;
+    margin-right: 2vh;
 }
 
 #single-icon {
